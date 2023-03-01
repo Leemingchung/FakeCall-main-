@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carviewScreen"
+        android:layout_width="match_parent"
+        android:layout_height="315dp"
+        android:backgroundTint="#D3D3D3"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/remove" />
+
+        <TextView
+            android:id="@+id/nameItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:text="Oppo"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/done"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/ic_baseline_done_outline_24"
+            android:layout_gravity="left"
+            android:visibility="gone"
+            />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
